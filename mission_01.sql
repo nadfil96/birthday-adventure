@@ -14,6 +14,8 @@ LOCKED
 -- mission protocol
 -- solve queries to unlock adventure
 
+
+--Find next clue:
 SELECT location
 FROM house
 WHERE function = 'coffee';
