@@ -16,7 +16,7 @@ WHERE terrain='forest'
 AND distance_km >= 8;
 
 
---Next hint:
+--Next clue:
 SELECT location
 FROM house
 WHERE element='water';
