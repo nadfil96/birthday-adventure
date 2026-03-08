@@ -4,6 +4,8 @@ terrain,
 weather
 FROM activity_log;
 
+
+--Result:
 distance_km | terrain | weather
 ------------|--------|---------
 8           | forest | wet_possible
@@ -13,10 +15,11 @@ FROM gear
 WHERE terrain='forest'
 AND distance_km >= 8;
 
-Vilken typ av kläder ska packas?
 
+--Next hint:
 SELECT location
 FROM house
 WHERE element='water';
 
+--Result:
 bathroom
