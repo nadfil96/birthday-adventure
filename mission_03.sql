@@ -21,4 +21,3 @@ SELECT location
 FROM house
 WHERE contains='clothes';
 
-wardrobe
