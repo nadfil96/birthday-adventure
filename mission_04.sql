@@ -19,9 +19,9 @@ WHERE event='restaurant';
 --Next:
 SELECT location
 FROM house
-WHERE comfort='maximum';
+WHERE comfort='maximum'
+  and activity = 'tv';
 
-sofa
 
 
 
