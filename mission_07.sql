@@ -4,21 +4,26 @@ travel_time,
 arrival_time + travel_time AS departure_time
 FROM trip;
 
+--Result:
 arrival_time | travel_time | departure_time
 -------------|-------------|---------------
 11           | 1           | 12
 
 -- ERROR: query incorrect
-
-
-Vi ska vara framme kl 11.
-Resan tar 1 timme.
-
-Vilken tid ska vi åka?
+-- Departure time needed. Debug, then continue reading.
 
 
 
 
+
+--
+
+
+
+
+  
+
+--Next:
 MISSION STATUS: UNLOCKED
 
 PACKLIST VERIFIED:
