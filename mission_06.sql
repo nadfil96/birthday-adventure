@@ -10,8 +10,8 @@ location | wildlife | walking_required | binoculars
 ---------|----------|------------------|-----------
 coast    | possible | true             | useful
 
-SELECT transport
-FROM vehicles
-WHERE fastest='car';
 
-car
+--Next:  
+SELECT next_clue
+FROM house
+WHERE item='computer';
